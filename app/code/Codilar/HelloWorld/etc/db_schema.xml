@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="vinod_table_grid1" resource="default" engine="innodb" comment="Comment Here">
+        <column xsi:type="int" name="id" nullable="false" identity="true" comment="Id" />
+        <column xsi:type="varchar" name="car_id" nullable="false" length="256" comment="Car ID"/>
+        <column xsi:type="varchar" name="manufacturer" nullable="false" length="256" comment="Manufacturer"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+    </table>
+</schema>

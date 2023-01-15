@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Codilar_GridModule::grid" title="Grid" module="Codilar_GridModule" sortOrder="10" resource="Codilar_GridModule::grid"/>
+        <add
+            id="Codilar_GridModule::listing"
+            title="Purchased order by Customer"
+            translate="title"
+            module="Codilar_GridModule"
+            sortOrder="20"
+            parent="Codilar_GridModule::grid"
+            action="grid/index/index"
+            resource="Codilar_GridModule::grid"
+        />
+    </menu>
+</config>
+
+
+

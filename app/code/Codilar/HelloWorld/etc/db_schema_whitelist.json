@@ -1,0 +1,12 @@
+{
+    "vinod_table_grid1": {
+        "column": {
+            "id": true,
+            "car_id": true,
+            "manufacturer": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
